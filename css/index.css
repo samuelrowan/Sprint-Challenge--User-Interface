@@ -158,7 +158,6 @@ footer nav a {
 nav ul {
 	margin: 25px 0;
 	display: flex;
-	display: flex;
 	align-items: flex-end;
 	justify-content: space-between;
 }
@@ -208,4 +207,31 @@ button {
 }
 button:hover {
 	background-color: grey;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 799px) {
+	.container {
+	    width: 400px;
+	    margin: 0 auto;
+	}
+	a img{
+		width: 70px;
+	}
+	.topNavItem {
+		font-size: 15px;
+	}
+	.banner{
+		width: 400px;
+	}
+	.body-content{
+		flex-wrap: wrap;
+	}
+	.content-container img {
+		max-width: 100%
+	}
 }
